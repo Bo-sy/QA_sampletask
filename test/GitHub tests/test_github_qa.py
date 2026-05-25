@@ -6,7 +6,6 @@ EXPECTED_TEXT_IN_README = "CopilotKit"
 
 @pytest.fixture
 def main_page():
-    # Setup
     page = MainPage()
     yield page
 
