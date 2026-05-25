@@ -1,7 +1,7 @@
 import pytest
 from main.Pages.MainPage import MainPage
 
-EXPECTED_TEXT_IN_README = "CopilotKit1"
+EXPECTED_TEXT_IN_README = "CopilotKit"
 
 
 @pytest.fixture
