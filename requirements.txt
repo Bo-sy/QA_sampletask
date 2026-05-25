@@ -1,3 +1,2 @@
-#pip3 install -r requirements.txt
 pytest==8.4.1
 playwright==1.55.0
