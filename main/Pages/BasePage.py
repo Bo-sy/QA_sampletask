@@ -9,6 +9,7 @@ _playwright_context_manager = sync_playwright()
 BasePage.playwright = _playwright_context_manager.start()
 
 BasePage.browser = BasePage.playwright.chromium.launch(
+    channel="chrome",
     headless=False,
     slow_mo=50
 )
